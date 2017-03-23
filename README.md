@@ -9,8 +9,9 @@ And yeah, thats my dog.
 
 
 ## Architecture
+### Symbols
 ```
-Styled Text /
+Symbols /
 │
 └── (-) Camera view /
      │
@@ -34,6 +35,29 @@ Styled Text /
               └── (-) Lines
                    ├── (-) Vertical
                    └── (-) Horizontal
+```
+
+### Styled text
+```
+Symbols /
+│
+└── (-) Camera view /
+     │
+     ├── (-) Big Label
+     │    │
+     │    ├── (-) Left
+     │    └── (-) Right
+     │
+     └── (-) Small Label
+          │
+          └── (-) Right
+```
+
+### Shared style
+```
+Borders/Flat/Center/1px
+Borders/Flat/Inside/2px
+Fills/Flat/White/87
 ```
 
 
